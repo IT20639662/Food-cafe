@@ -1,0 +1,238 @@
+ body{
+    margin: 10px;
+} 
+
+header {
+    background-color: #333;
+    color: rgb(175, 170, 164);
+    padding: 1em 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    text-align:right;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 1em;
+  }
+  
+  nav ul li a {
+    color: rgb(175, 170, 164);
+    text-decoration: none;
+    
+  }
+ 
+ nav ul li a:hover { color: #d35400 }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr; /* Two equal columns */
+    height: 80vh; /* Full viewport height */
+    padding: 5px;
+  }
+  
+  .side{
+    
+    background-color:#333;
+    margin-top:0px;
+    margin-right:15px;
+    color:rgb(175, 170, 164);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+  }
+  
+  .side h1{
+    font-size: 2.0em;
+    color: #d35400;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+  }
+
+  .desc{
+    padding-right: 10px;
+  }
+ 
+
+
+  .grid-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 50px;
+    
+  }
+
+  .text{
+    margin-right: 8px;
+    font-weight:normal;
+    font-style: italic;
+    
+  }
+
+  .sub-heading{
+    color: #d35400; 
+    border-color: #e74c3c;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    font-weight:bold;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #b8acac;
+    font-family: 'Georgia', serif; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+  }
+  
+  hr{
+    border: 1.5px solid #b8acac;
+  }
+
+  .mid-section{
+    text-align: center;
+  }
+
+  .mid-section h1{
+    font-size: 1.5em;
+    color: #d35400;
+    margin-bottom: 20px;
+     font-family: 'Georgia', serif;
+  }
+
+  .mid-section p{
+    margin:15px;
+    color:#333;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(29, 11, 11, 0.1);
+  }
+
+.menu h2{
+   padding-top:10px;
+   color:coral;
+   margin-left: 20px;
+}
+  .food-menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right:10px ;
+  }
+
+  .food-menu h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+    color:#333;
+  }
+
+  .food-menu p{
+    font-size:medium;
+    color:#333;
+    font-style: italic;
+    padding: auto;
+    margin-left:5px;
+    margin-right: 5px;
+  }
+
+  /* price */
+
+  .food-price {
+    margin: 30px;
+    padding: 5px;
+    background-color: #333;
+    border-radius: 10px;
+    color: rgb(175, 170, 164);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .food-price ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .food-price li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+/*footer*/
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-content h3 {
+  margin-bottom: 20px;
+  font-size: 1.8em;
+  color: #d35400;
+  margin-top: 10px;
+}
+
+.footer-content p {
+  margin-bottom: 15px;
+  font-size: 1em;
+  color:rgb(175, 170, 164);
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-contact p {
+  margin: 5px 0;
+}
+
+.footer-social a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.footer-social img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-hours {
+  margin-top: 20px;
+  font-size: 1em;
+}
+
+.footer-bottom {
+  background-color: #222;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.9em;
+}
